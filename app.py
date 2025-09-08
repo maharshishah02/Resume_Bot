@@ -133,10 +133,37 @@ If the user is engaging in discussion, try to steer them towards getting in touc
 
 if __name__ == "__main__":
     me = Me()
-    demo = gr.ChatInterface(me.chat, type="messages")
-    demo.launch()
+    gr.ChatInterface(
+    fn=me.chat,
+    type="messages",
+    title="💼 Maharshi Shah - Resume Bot",
+    description="Hi, I'm Maharshi Shah's AI assistant! 👋\n\n"
+                "You can ask me about Maharshi's background, projects, career, and skills. "
+                "I’ll try to represent him faithfully. If you'd like to connect further, "
+                "I can also record your email for follow-up.",
+    examples=[
+        ["What is Maharshi’s background?"],
+        ["Can you summarize his skills?"],
+        ["Tell me about his recent projects."],
+        ["How can I get in touch with him?"]
+        ]).launch()
+
 else:
     me = Me()
-    demo = gr.ChatInterface(me.chat, type="messages")
+    gr.ChatInterface(
+    fn=me.chat,
+    type="messages",
+    title="💼 Maharshi Shah - Resume Bot",
+    description="Hi, I'm Maharshi Shah's AI assistant! 👋\n\n"
+                "You can ask me about Maharshi's background, projects, career, and skills. "
+                "I’ll try to represent him faithfully. If you'd like to connect further, "
+                "I can also record your email for follow-up.",
+    examples=[
+        ["What is Maharshi’s background?"],
+        ["Can you summarize his skills?"],
+        ["Tell me about his recent projects."],
+        ["How can I get in touch with him?"]
+    ])
+
 
     
