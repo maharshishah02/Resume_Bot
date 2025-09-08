@@ -39,17 +39,17 @@ It uses **Google Gemini API** for responses, **Pushover API** for notifications,
 git clone https://github.com/maharshishah02/Resume_Bot.git
 cd Resume_Bot
 ```
-###2. Create a virtual environment (optional but recommended)
+2. Create a virtual environment (optional but recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
-###3. Install dependencies
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-###4. Add secrets in .env
+4. Add secrets in .env
 Create a .env file in the root folder:
 
 env
@@ -59,20 +59,19 @@ PUSHOVER_TOKEN=your-pushover-token-here
 PUSHOVER_USER=your-pushover-user-key-here
 ```
 
-###5. Run locally
+5. Run locally
 ```bash
 python app.py
 ```
-You’ll get a local Gradio link like:
 
-cpp
+You’ll get a local Gradio link like:
 ```
 http://127.0.0.1:7860
 ```
 
 🚀 Check it out on Hugging Face space
 ```bash
-https://huggingface.co/spaces/maharshishah02/resume_bot
+https://huggingface.co/spaces/maharshi02/resume_bot
 ```
 
 🤝 Contributing
