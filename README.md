@@ -16,8 +16,9 @@ It uses **Google Gemini API** for responses, **Pushover API** for notifications,
 
 ---
 
-## 📸 Screenshot
-![Chatbot Screenshot](assets/chatbot.png)
+## 📸 ChatBox Preview
+
+<img width="1562" height="781" alt="Chatbox_screenshot" src="https://github.com/user-attachments/assets/dea9bf75-b203-4fbc-b3cc-79fa5d18e023" />
 
 ---
 
